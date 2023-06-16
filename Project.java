@@ -46,7 +46,7 @@ public class Project {
                                     + "Номер телефона - целое беззнаковое число без форматирования\n"
                                         + "Пол - символ латиницей f или m\n"
                                             + "Пример: "
-                                                + "'Maxim Maximov Maximovich 01.01.2000 89999999999 f'");
+                                                + "'Maxim Maximov Maximovich 01.01.2000 89999999999 f'"); // Почему то не работает на русском языке, лучше писать на английском
         String str = scanner.nextLine();
         return str;
     }
